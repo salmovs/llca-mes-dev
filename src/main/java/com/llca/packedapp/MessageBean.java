@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service;
 public class MessageBean implements Serializable {
 
     public String getMessage() {
-        return "Button was clicked at " + LocalTime.now();
+        return "Кнопка Тест нажата   " + LocalTime.now();
     }
 }
